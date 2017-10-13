@@ -1,0 +1,374 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (CarND-Path-Planning-Project.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Waypoints.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(58): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(62): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(148): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(292): warning C4267: 'Initialisierung': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+  Vehicle.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2143: Syntaxfehler: Es fehlt ';' vor 'std::array<double,0x03>'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2146: Syntaxfehler: Fehlendes ';' vor Bezeichner 'laneCenter'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2275: 'std::array<double,0x03>': Ungültige Verwendung dieses Typs als Ausdruck
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(55): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2864: 'TrajectoryPool::m_MaxJerkS' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(58): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(62): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(148): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(292): warning C4267: 'Initialisierung': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C2864: 'VehicleState::m_SpeedLimit' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C2864: 'VehicleState::m_HorizontPrediction' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C2864: 'VehicleState::m_TimeStep' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+  WebSocketImpl.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  WebSocket.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  uUV.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\uUV.h(6): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "uv.h": No such file or directory
+  Socket.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  Node.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  Networking.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  Hub.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  HTTPSocket.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  Group.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  Extensions.cpp
+  TrajectoryPool.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2143: Syntaxfehler: Es fehlt ';' vor 'std::array<double,0x03>'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2146: Syntaxfehler: Fehlendes ';' vor Bezeichner 'laneCenter'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2275: 'std::array<double,0x03>': Ungültige Verwendung dieses Typs als Ausdruck
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(55): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2864: 'TrajectoryPool::m_MaxJerkS' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+  Trajectory.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2143: Syntaxfehler: Es fehlt ';' vor 'std::array<double,0x03>'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2146: Syntaxfehler: Fehlendes ';' vor Bezeichner 'laneCenter'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2275: 'std::array<double,0x03>': Ungültige Verwendung dieses Typs als Ausdruck
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(55): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+  SensorFusion.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(58): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(62): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(148): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(292): warning C4267: 'Initialisierung': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2143: Syntaxfehler: Es fehlt ';' vor 'std::array<double,0x03>'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2146: Syntaxfehler: Fehlendes ';' vor Bezeichner 'laneCenter'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2275: 'std::array<double,0x03>': Ungültige Verwendung dieses Typs als Ausdruck
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(55): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+  PathPlanner.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2143: Syntaxfehler: Es fehlt ';' vor 'std::array<double,0x03>'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2146: Syntaxfehler: Fehlendes ';' vor Bezeichner 'laneCenter'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2275: 'std::array<double,0x03>': Ungültige Verwendung dieses Typs als Ausdruck
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(55): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2864: 'TrajectoryPool::m_MaxJerkS' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(58): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(62): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(148): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(292): warning C4267: 'Initialisierung': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C2864: 'VehicleState::m_SpeedLimit' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C2864: 'VehicleState::m_HorizontPrediction' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C2864: 'VehicleState::m_TimeStep' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+  main.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\Networking.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "openssl/opensslv.h": No such file or directory
+  LaneKeeping.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2143: Syntaxfehler: Es fehlt ';' vor 'std::array<double,0x03>'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2146: Syntaxfehler: Fehlendes ';' vor Bezeichner 'laneCenter'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2275: 'std::array<double,0x03>': Ungültige Verwendung dieses Typs als Ausdruck
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(55): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(58): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(62): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(148): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(292): warning C4267: 'Initialisierung': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C2864: 'VehicleState::m_SpeedLimit' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C2864: 'VehicleState::m_HorizontPrediction' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C2864: 'VehicleState::m_TimeStep' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2864: 'TrajectoryPool::m_MaxJerkS' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+  LaneChanging.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(18): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(19): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(20): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(23): error C2086: 'int Utils::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(17): Siehe Deklaration von 'Utils::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2143: Syntaxfehler: Es fehlt ';' vor 'std::array<double,0x03>'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2146: Syntaxfehler: Fehlendes ';' vor Bezeichner 'laneCenter'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2275: 'std::array<double,0x03>': Ungültige Verwendung dieses Typs als Ausdruck
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(53): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\Utils.hpp(55): error C2065: 'laneCenter': nichtdeklarierter Bezeichner
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(58): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(62): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(148): warning C4267: 'return': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\spline.h(292): warning C4267: 'Initialisierung': Konvertierung von 'size_t' nach 'int', Datenverlust möglich
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(22): error C2864: 'VehicleState::m_SpeedLimit' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(23): error C2864: 'VehicleState::m_HorizontPrediction' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\VehicleState.h(24): error C2864: 'VehicleState::m_TimeStep' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(34): error C2864: 'TrajectoryPool::m_MaxJerkS' : Ein statisches Datenmember mit einem Initialisierer in der Klasse muss einen nicht flüchtigen konstant integralen Typ haben
+          Typ ist 'double'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(37): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(38): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(39): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2144: Syntaxfehler: 'double' sollte auf ';' folgen
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(40): error C2086: 'int TrajectoryPool::constexpr': Neudefinition
+          c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\TrajectoryPool.h(36): Siehe Deklaration von 'TrajectoryPool::constexpr'
+  Code wird generiert...

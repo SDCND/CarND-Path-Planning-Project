@@ -1,0 +1,109 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: Das Zwischenverzeichnis (Debug\) enthält freigegebene Dateien aus einem anderen Projekt (CarND-Path-Planning-Project.vcxproj). Dies kann zu einem falschen Bereinigungs- und Neuerstellungsverhalten führen.
+  main.cpp
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\networking.h(70): warning C4251: "uS::TLS::Context::password": class "std::shared_ptr<std::string>" erfordert eine DLL-Schnittstelle, die von Clients von class "uS::TLS::Context" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\networking.h(70): note: Siehe Deklaration von "std::shared_ptr<std::string>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\networking.h(134): warning C4251: "uS::NodeData::transferQueue": class "std::vector<uS::NodeData::TransferData,std::allocator<_Ty>>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uS::NodeData" verwendet wird
+          with
+          [
+              _Ty=uS::NodeData::TransferData
+          ]
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\networking.h(134): note: Siehe Deklaration von "std::vector<uS::NodeData::TransferData,std::allocator<_Ty>>"
+          with
+          [
+              _Ty=uS::NodeData::TransferData
+          ]
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\networking.h(135): warning C4251: "uS::NodeData::changePollQueue": class "std::vector<uv_poll_t *,std::allocator<_Ty>>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uS::NodeData" verwendet wird
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\networking.h(135): note: Siehe Deklaration von "std::vector<uv_poll_t *,std::allocator<_Ty>>"
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\node.h(19): warning C4251: "uS::Node::asyncMutex": class "std::mutex" erfordert eine DLL-Schnittstelle, die von Clients von class "uS::Node" verwendet wird
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\mutex(79): note: Siehe Deklaration von "std::mutex"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(17): warning C4251: "uWS::Group<true>::connectionHandler": class "std::function<void (uWS::WebSocket<true>,uWS::HttpRequest)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(17): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<true>,uWS::HttpRequest)>"
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\hub.h(14): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "uWS::Group<true>", die kompiliert wird.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(18): warning C4251: "uWS::Group<true>::messageHandler": class "std::function<void (uWS::WebSocket<true>,char *,::size_t,uWS::OpCode)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(18): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<true>,char *,::size_t,uWS::OpCode)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(19): warning C4251: "uWS::Group<true>::disconnectionHandler": class "std::function<void (uWS::WebSocket<true>,int,char *,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(19): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<true>,int,char *,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(20): warning C4251: "uWS::Group<true>::pingHandler": class "std::function<void (uWS::WebSocket<true>,char *,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(20): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<true>,char *,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(21): warning C4251: "uWS::Group<true>::pongHandler": class "std::function<void (uWS::WebSocket<true>,char *,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(20): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<true>,char *,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(23): warning C4251: "uWS::Group<true>::httpConnectionHandler": class "std::function<void (uWS::HttpSocket<true>)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(23): note: Siehe Deklaration von "std::function<void (uWS::HttpSocket<true>)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(24): warning C4251: "uWS::Group<true>::httpRequestHandler": class "std::function<void (uWS::HttpResponse *,uWS::HttpRequest,char *,::size_t,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(24): note: Siehe Deklaration von "std::function<void (uWS::HttpResponse *,uWS::HttpRequest,char *,::size_t,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(25): warning C4251: "uWS::Group<true>::httpDataHandler": class "std::function<void (uWS::HttpResponse *,char *,::size_t,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(25): note: Siehe Deklaration von "std::function<void (uWS::HttpResponse *,char *,::size_t,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(26): warning C4251: "uWS::Group<true>::httpCancelledRequestHandler": class "std::function<void (uWS::HttpResponse *)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(26): note: Siehe Deklaration von "std::function<void (uWS::HttpResponse *)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(28): warning C4251: "uWS::Group<true>::httpDisconnectionHandler": class "std::function<void (uWS::HttpSocket<true>)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(23): note: Siehe Deklaration von "std::function<void (uWS::HttpSocket<true>)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(29): warning C4251: "uWS::Group<true>::httpUpgradeHandler": class "std::function<void (uWS::HttpSocket<true>,uWS::HttpRequest)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(29): note: Siehe Deklaration von "std::function<void (uWS::HttpSocket<true>,uWS::HttpRequest)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(32): warning C4251: "uWS::Group<true>::errorHandler": class "std::function<void (int)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(32): note: Siehe Deklaration von "std::function<void (int)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(37): warning C4251: "uWS::Group<true>::userPingMessage": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xstring(3997): note: Siehe Deklaration von "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(55): warning C4251: "uWS::Group<true>::iterators": class "std::stack<uv_poll_t *,std::deque<_Ty,std::allocator<_Ty>>>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<true>" verwendet wird
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(55): note: Siehe Deklaration von "std::stack<uv_poll_t *,std::deque<_Ty,std::allocator<_Ty>>>"
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(17): warning C4251: "uWS::Group<false>::connectionHandler": class "std::function<void (uWS::WebSocket<false>,uWS::HttpRequest)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(17): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<false>,uWS::HttpRequest)>"
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\hub.h(14): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "uWS::Group<false>", die kompiliert wird.
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(18): warning C4251: "uWS::Group<false>::messageHandler": class "std::function<void (uWS::WebSocket<false>,char *,::size_t,uWS::OpCode)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(18): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<false>,char *,::size_t,uWS::OpCode)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(19): warning C4251: "uWS::Group<false>::disconnectionHandler": class "std::function<void (uWS::WebSocket<false>,int,char *,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(19): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<false>,int,char *,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(20): warning C4251: "uWS::Group<false>::pingHandler": class "std::function<void (uWS::WebSocket<false>,char *,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(20): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<false>,char *,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(21): warning C4251: "uWS::Group<false>::pongHandler": class "std::function<void (uWS::WebSocket<false>,char *,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(20): note: Siehe Deklaration von "std::function<void (uWS::WebSocket<false>,char *,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(23): warning C4251: "uWS::Group<false>::httpConnectionHandler": class "std::function<void (uWS::HttpSocket<false>)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(23): note: Siehe Deklaration von "std::function<void (uWS::HttpSocket<false>)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(24): warning C4251: "uWS::Group<false>::httpRequestHandler": class "std::function<void (uWS::HttpResponse *,uWS::HttpRequest,char *,::size_t,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(24): note: Siehe Deklaration von "std::function<void (uWS::HttpResponse *,uWS::HttpRequest,char *,::size_t,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(25): warning C4251: "uWS::Group<false>::httpDataHandler": class "std::function<void (uWS::HttpResponse *,char *,::size_t,::size_t)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(25): note: Siehe Deklaration von "std::function<void (uWS::HttpResponse *,char *,::size_t,::size_t)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(26): warning C4251: "uWS::Group<false>::httpCancelledRequestHandler": class "std::function<void (uWS::HttpResponse *)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(26): note: Siehe Deklaration von "std::function<void (uWS::HttpResponse *)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(28): warning C4251: "uWS::Group<false>::httpDisconnectionHandler": class "std::function<void (uWS::HttpSocket<false>)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(23): note: Siehe Deklaration von "std::function<void (uWS::HttpSocket<false>)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(29): warning C4251: "uWS::Group<false>::httpUpgradeHandler": class "std::function<void (uWS::HttpSocket<false>,uWS::HttpRequest)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(29): note: Siehe Deklaration von "std::function<void (uWS::HttpSocket<false>,uWS::HttpRequest)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(32): warning C4251: "uWS::Group<false>::errorHandler": class "std::function<void (void *)>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(32): note: Siehe Deklaration von "std::function<void (void *)>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(37): warning C4251: "uWS::Group<false>::userPingMessage": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xstring(3997): note: Siehe Deklaration von "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(55): warning C4251: "uWS::Group<false>::iterators": class "std::stack<uv_poll_t *,std::deque<_Ty,std::allocator<_Ty>>>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Group<false>" verwendet wird
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+  c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\group.h(55): note: Siehe Deklaration von "std::stack<uv_poll_t *,std::deque<_Ty,std::allocator<_Ty>>>"
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\uws\hub.h(35): warning C4251: "uWS::Hub::dynamicInflationBuffer": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von struct "uWS::Hub" verwendet wird
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xstring(3997): note: Siehe Deklaration von "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\main.cpp(62): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\main.cpp(273): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\main.cpp(409): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\main.cpp(425): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+c:\users\mario.capin\documents\visual studio 2017\projects\carnd-path-planning-project\carnd-path-planning-project\src\main.cpp(436): warning C4018: "<=": Konflikt zwischen "signed" und "unsigned"
+  CarND-Path-Planning-Project.vcxproj -> C:\Users\mario.capin\Documents\Visual Studio 2017\Projects\CarND-Path-Planning-Project\Debug\CarND-Path-Planning-Project.exe
+  CarND-Path-Planning-Project.vcxproj -> C:\Users\mario.capin\Documents\Visual Studio 2017\Projects\CarND-Path-Planning-Project\Debug\CarND-Path-Planning-Project.pdb (Partial PDB)
